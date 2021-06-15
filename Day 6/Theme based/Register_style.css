@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(Bhai12.jpeg);
+	background-size: cover;
+	background-position: center; 
+}
+.regstbox{
+	width: 450px;
+	height: 540px;
+	background: #00bfff;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 20px;
+}
+.user_avt{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50%-50%);
+}
+h1{
+	margin: 0;
+	padding: 0 0 40px;
+	text-align: center;
+}
+.regstbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	margin-left: 30px;
+}
+.regstbox input{
+	width: 42%;
+	margin-bottom: 10px;
+}
+.regstbox input[type="text"], input[type="tel"], input[type="password"], input[type="email"] {
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none; 
+	height: 25px;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 10px;
+	padding: 0 0 0 10px;
+	transform: translate(50%, -80%);
+	margin-left: 25%;
+	margin-right: 40%; 
+}
+.regstbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #495eb9;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px; 
+}
+.regstbox input[type="submit"]:hover {
+	cursor: pointer;
+	background: #bf00ff;
+	color: #000;
+}
+.regstbox a{
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 20px;
+	color: #0000d5;
+}
+.regstbox a:hover{
+	color: #ff0000;
+	font-size: 20px;
+}
